@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 })
 
 function respondHello (req, res) {
-  res.end(JSON.stringify({ msg: 'hello' }))
+  res.end(JSON.stringify({ msg: 'helloo' }))
 }
 
 function respondBase64 (req, res) {
